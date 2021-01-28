@@ -39,8 +39,8 @@ const UpdateForm = (props) => {
         // .put(`http://localhost:5000/api/update-movie/${id}`)
         .put(`http://localhost:5000/api/movies/${id}`, state)
         .then(res => {
-            console.log(res)
-            console.log(res.data)
+            // console.log(res)
+            // console.log(res.data)
             props.setUpdateList(!props.updateList)
             // props.setMovieList(res.data)
             push(`/`)
